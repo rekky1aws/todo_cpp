@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main () {
-  std::cout << "Hello World!\n";
+  string name("Donatien");
+  cout << "Hello " << name << " !\n";
+
+  return 0;
 }
