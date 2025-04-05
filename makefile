@@ -1,10 +1,9 @@
 all: compile exec
 
 compile:
-	@rm hello.x
-	@g++ hello.cpp -o hello.x
+	@g++ todo.cpp -o todo.x
 
 exec:
 	@echo "------ Start ------"
-	@./hello.x
+	@./todo.x
 	@echo "------- End -------"
